@@ -1,0 +1,220 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.heading{
+    height: 100vh;
+    background-image: url("/architect.jpg");
+    
+}
+.hd{
+    position: fixed;
+    color: black;
+}
+#project {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2px;
+    text-align: center;
+}
+.pro{
+    font-size: 30px;
+    padding: 50px;
+    text-align: center;
+}
+span{
+    color: lightslategrey;
+}
+.heading .hd{
+    display: flex;
+    background-color:white;
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.heading .hd h2{
+    margin-left: 40px;
+}
+.heading .hd h2 span{
+    color: green;
+}
+.heading .hd nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin-right:20px;
+}
+.heading .hd nav ul li a{
+    color: black;
+}
+.heading .hd nav ul li a{
+    
+    font-size: 20px;
+    text-decoration: none;
+}
+.heading .con{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    justify-content: Center;
+    align-items: center;
+}
+.heading .con .www .wtt b{
+    background-color: rgba(51, 51, 51,0.8);
+    padding: 20px;
+}
+.heading .con .www .wtt b ,
+.gta {
+    color: white;
+}
+
+/* project setion */
+
+.heading .Projects p{
+    font-size: 30px;
+    margin: 50px;
+}
+.heading .Projects img{
+    width: 350px;
+    margin: 10px;
+
+}
+
+/* about section */
+
+.heading .About .Abo{
+    font-size: 30px;
+    margin: 50px;
+}
+.heading .About  p{
+    font-size: 20px;
+    margin: 40px;
+}
+
+/* doe section */
+
+.heading .doe{
+
+    display: flex;
+    gap: 10px;
+    text-align:left;
+}
+.heading .doe .john a{
+    align-items: center;
+}
+.heading .doe .john img{
+    width: 300px;
+}
+.heading .doe .jane img{
+    width: 300px;
+
+}
+.heading .doe .ross img{
+    width: 300px;
+
+}
+.heading .doe .star img{
+    width: 300px;
+
+}
+.heading .doe .john p{
+margin: 20px;
+}
+.heading .doe .jane p{
+margin: 20px;
+}
+.heading .doe .ross p{
+margin: 20px;
+}
+
+.heading .doe .star p{
+    margin: 20px;
+
+}
+.heading .doe  a{
+    color: black;
+    border: 2px solid white;
+    padding: 10px;
+    background-color: rgb(195, 216, 216);
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+
+/*contact section  */
+
+.heading .inp{
+    margin: 50px;
+
+}
+
+.heading .inp p{
+    text-align: left;
+    font-size: 20px;
+}
+.heading .inp h3{
+    font-size: 30px;
+    margin: 30px;
+}
+.heading .inp input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+}
+.heading .inp .name{
+    margin: 15px;
+
+}
+.heading .inp .email{
+    margin: 15px;
+
+}
+.heading .inp .com{
+    margin: 15px;
+
+}
+.heading .inp .sub{
+    margin: 15px;
+
+}
+.heading .inp a{
+    margin: px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right:20px ;
+    padding-left: 20px;
+
+}
+
+/* map image */
+
+/*  footer */
+.heading .fot p{
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.heading .fot a{
+    color: white;
+}
+/* .heading .Projects .hot {
+      position: absolute;
+  top: 8px;
+  left: 16px; 
+} */
+
